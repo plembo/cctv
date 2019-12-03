@@ -1,13 +1,21 @@
 {
   "name": "cctv",
   "version": "1.0.0",
-  "description": "CCTV service",
+  "description": "An opencv server for node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/philnc/cctv.git"
+  },
   "author": "Phil Lembo",
   "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/philnc/cctv/issues"
+  },
+  "homepage": "https://gitlab.com/philnc/cctv#readme",
   "dependencies": {
     "express": "^4.17.1",
     "opencv4nodejs": "^5.5.0",
